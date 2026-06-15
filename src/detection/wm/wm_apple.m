@@ -30,6 +30,7 @@ const char* ffDetectWMPlugin(FFstrbuf* pluginName) {
 
         if (
             !ffStrEqualsIgnCase(comm, "rectangle") && // 28.6k
+            !ffStrEqualsIgnCase(comm, "rectangle pro") && // paid edition of rectangle; distinct process name
             !ffStrEqualsIgnCase(comm, "yabai") &&     // 28.4k
             !ffStrEqualsIgnCase(comm, "aerospace") && // 19.6k
             !ffStrEqualsIgnCase(comm, "amethyst") &&  // 16k
